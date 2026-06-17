@@ -27,6 +27,6 @@ public class TouchSensorPractice extends OpMode {
             touchSensorState = "not pressed";
         }
         telemetry.addData("Touch Sensor State", touchSensorState);
-        telemetry.addData("Touch Sensor State", bench.getTouchSensorState());
+        telemetry.addData("Touch Sensor State", bench.isTouchSensorPressed());
     }
 }
